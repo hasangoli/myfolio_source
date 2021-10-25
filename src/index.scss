@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.8rem;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif !important;
+
+  &::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10vw;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #00aaaa;
+  }
+
+  .mobile-nav-close {
+    display: none;
+  }
+
+  .rounded {
+    border-radius: 0.7rem !important;
+    overflow: hidden;
+  }
+
+  .icon {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+  .app {
+    background: url("./images/bg.svg") center center/cover fixed;
+    z-index: 5;
+    width: 100vw;
+    min-height: 100vh;
+
+    nav {
+      background-color: #fff;
+      position: relative;
+      overflow: visible;
+
+      .mobile-navbar {
+        position: absolute;
+        right: 0px;
+        top: 50px;
+        width: 50%;
+        z-index: 10;
+        transition: width 0.3s linear, height 0.3s linear;
+      }
+    }
+
+    .sidebar {
+      background-color: #fff;
+
+      .profile-image {
+        clip-path: polygon(0 15%, 100% 0%, 100% 95%, 0% 100%);
+      }
+
+      .profile-information {
+        list-style: none;
+        font-size: 0.9rem;
+      }
+
+      .profile-information li {
+        position: relative;
+      }
+
+      .profile-information li::before {
+        content: "";
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: none;
+        position: absolute;
+        left: -13px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #00ff88;
+        border-radius: 50%;
+      }
+    }
+
+    .home {
+      .my-services {
+        .card-img-top {
+          font-size: 3rem;
+        }
+      }
+
+      .progress {
+        height: 5px;
+        border-radius: 1rem;
+
+        .progress-bar {
+          border-radius: 1rem;
+        }
+      }
+    }
+
+    .resume {
+      .resume-icon {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+
+    .portfolio {
+      a.card {
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a.link {
+        text-decoration: none;
+      }
+    }
+  }
+}
