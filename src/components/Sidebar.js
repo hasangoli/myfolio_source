@@ -1,4 +1,5 @@
 import Profile from "../images/photo_2021-06-05_01-02-50.jpg";
+import { FaDownload } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
@@ -46,11 +47,11 @@ const Sidebar = () => {
 
       <div className="text-center">
         <a
-          href="../pdf/Hasan_Goli.pdf"
+          href="../pdf/HasanGoli.pdf"
           download
-          className="btn rounded-pill btn-info text-light py-2 px-3 disabled"
+          className="btn rounded-pill btn-info text-light py-2 px-4"
         >
-          <span className="p-3">Download Cv</span>
+          Download Cv <FaDownload className="icon ms-3" />
         </a>
       </div>
     </div>

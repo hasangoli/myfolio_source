@@ -16,14 +16,7 @@ const Portfolio = () => {
 
         <div className="row">
           <Job
-            url={"https://hasangoli.github.io/myfolio"}
-            image={MyFolio}
-            title={"MyFolio"}
-            info={"React, Sass, Bootstrap"}
-            link={"https://github.com/hasangoli/myfolio/tree/source"}
-          />
-          <Job
-            url={"https://github.com/hasangoli/imdb"}
+            url={"https://github.com/hasangoli/imdb_source"}
             image={IMDB}
             title={"IMDB Movie Ranking"}
             info={"React, Bootstrap (just source)"}
@@ -33,7 +26,14 @@ const Portfolio = () => {
             image={TodoApp}
             title={"Todo"}
             info={"React"}
-            link={"https://github.com/hasangoli/todo/tree/source"}
+            link={"https://github.com/hasangoli/todo_source"}
+          />
+          <Job
+            url={"https://hasangoli.github.io/myfolio"}
+            image={MyFolio}
+            title={"MyFolio"}
+            info={"React, Sass, Bootstrap"}
+            link={"https://github.com/hasangoli/myfolio_source"}
           />
           <Job
             url={"https://www.jicoexact.ir"}
