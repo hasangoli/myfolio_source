@@ -6,26 +6,26 @@ const Contact = ({ color }) => {
           <h5 className="my-4">Contact Form</h5>
           <form action="">
             <div className="row">
-              <div class="mb-3 col-lg-6 col-12">
-                <label for="text" class="form-label">
+              <div className="mb-3 col-lg-6 col-12">
+                <label for="text" className="form-label">
                   Name
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="email"
                   placeholder="John Doe"
                   disabled
                 />
               </div>
 
-              <div class="mb-3 col-lg-6 col-12">
-                <label for="email" class="form-label">
+              <div className="mb-3 col-lg-6 col-12">
+                <label for="email" className="form-label">
                   Email address
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="email"
                   placeholder="name@example.com"
                   disabled
@@ -33,12 +33,12 @@ const Contact = ({ color }) => {
               </div>
             </div>
 
-            <div class="mb-3">
-              <label for="textarea" class="form-label">
+            <div className="mb-3">
+              <label for="textarea" className="form-label">
                 Enter your text here
               </label>
               <textarea
-                class="form-control"
+                className="form-control"
                 id="textarea"
                 rows="3"
                 disabled

@@ -22,7 +22,7 @@ const Main = ({ color }) => {
           case "portfolio":
             return <Portfolio />;
           case "blog":
-            return <Blog />;
+            return <Blog color={color} />;
           case "contact":
             return <Contact color={color} />;
           default:

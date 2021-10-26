@@ -13,46 +13,46 @@ const Navbar = ({ setRoute, color }) => {
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded shadow-lg mb-4 p-0 d-none d-lg-block">
-        <div class="container ps-0">
-          <div class="collapse navbar-collapse" id="navbarNavDesktop">
-            <ul class="navbar-nav">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light rounded shadow-lg mb-4 p-0 d-none d-lg-block">
+        <div className="container ps-0">
+          <div className="collapse navbar-collapse" id="navbarNavDesktop">
+            <ul className="navbar-nav">
               <div className="btn-group">
                 <li
-                  class="nav-item btn btn-info"
+                  className="nav-item btn btn-info"
                   style={{ backgroundColor: color, border: "none" }}
                 >
-                  <span class="nav-link" onClick={() => setRoute("home")}>
+                  <span className="nav-link" onClick={() => setRoute("home")}>
                     <FaHome className="icon" />
                   </span>
                 </li>
-                <li class="nav-item btn">
+                <li className="nav-item btn">
                   <span
-                    class="nav-link text-uppercase fw-bold"
+                    className="nav-link text-uppercase fw-bold"
                     onClick={() => setRoute("resume")}
                   >
                     Resume
                   </span>
                 </li>
-                <li class="nav-item btn">
+                <li className="nav-item btn">
                   <span
-                    class="nav-link text-uppercase fw-bold"
+                    className="nav-link text-uppercase fw-bold"
                     onClick={() => setRoute("portfolio")}
                   >
                     Portfolio
                   </span>
                 </li>
-                <li class="nav-item btn">
+                <li className="nav-item btn">
                   <span
-                    class="nav-link text-uppercase fw-bold"
+                    className="nav-link text-uppercase fw-bold"
                     onClick={() => setRoute("blog")}
                   >
                     Blog
                   </span>
                 </li>
-                <li class="nav-item btn">
+                <li className="nav-item btn">
                   <span
-                    class="nav-link text-uppercase fw-bold"
+                    className="nav-link text-uppercase fw-bold"
                     onClick={() => setRoute("contact")}
                   >
                     Contact

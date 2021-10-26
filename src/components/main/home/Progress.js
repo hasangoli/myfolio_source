@@ -6,11 +6,10 @@ const Progress = ({ skill, percentage, color }) => {
         <div
           className="progress-bar"
           role="progressbar"
-          // style={{
-          //   backgroundColor: color,
-          //   width: `${percentage}%`,
-          // }}
-          style={{ width: "100px" }}
+          style={{
+            width: `${percentage}%`,
+            backgroundColor: color,
+          }}
         ></div>
       </div>
     </div>
