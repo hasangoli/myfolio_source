@@ -1,4 +1,4 @@
-const Contact = () => {
+const Contact = ({ color }) => {
   return (
     <div className="contact p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg my-5">
       <div className="row">
@@ -46,7 +46,8 @@ const Contact = () => {
             </div>
 
             <button
-              className="btn btn-info rounded-pill text-light px-4"
+              className="btn rounded-pill text-light px-4"
+              style={{ backgroundColor: color }}
               disabled
             >
               Submit

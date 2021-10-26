@@ -2,7 +2,7 @@ import { FaLaptop, FaPenFancy, FaCalendar } from "react-icons/fa";
 import Card from "./home/Card";
 import Progress from "./home/Progress";
 
-const Home = () => {
+const Home = ({ color }) => {
   return (
     <div className="home py-4">
       <div className="about-me p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg mb-5">
@@ -48,26 +48,26 @@ const Home = () => {
         <div className="row">
           <div className="col-12 col-lg-4 py-4 py-lg-0">
             <h5 className="mb-4">Design Skills</h5>
-            <Progress skill={"Figma"} percentage={40} />
-            <Progress skill={"GIMP"} percentage={30} />
-            <Progress skill={"Photoshop"} percentage={25} />
-            <Progress skill={"Adobe XD"} percentage={15} />
+            <Progress color={color} skill={"Figma"} percentage={40} />
+            <Progress color={color} skill={"GIMP"} percentage={30} />
+            <Progress color={color} skill={"Photoshop"} percentage={25} />
+            <Progress color={color} skill={"Adobe XD"} percentage={15} />
           </div>
 
           <div className="col-12 col-lg-4 py-4 py-lg-0">
             <h5 className="mb-4">Code Skills</h5>
-            <Progress skill={"Javascript"} percentage={45} />
-            <Progress skill={"CSS3"} percentage={70} />
-            <Progress skill={"HTML5"} percentage={75} />
-            <Progress skill={"Bootstrap"} percentage={45} />
-            <Progress skill={"React & Redux"} percentage={30} />
+            <Progress color={color} skill={"Javascript"} percentage={45} />
+            <Progress color={color} skill={"CSS3"} percentage={70} />
+            <Progress color={color} skill={"HTML5"} percentage={75} />
+            <Progress color={color} skill={"Bootstrap"} percentage={45} />
+            <Progress color={color} skill={"React & Redux"} percentage={30} />
           </div>
 
           <div className="col-12 col-lg-4 py-4 py-lg-0">
             <h5 className="mb-4">Other Skills</h5>
-            <Progress skill={"Wordpress"} percentage={45} />
-            <Progress skill={"WooCommerce"} percentage={35} />
-            <Progress skill={"Joomla"} percentage={30} />
+            <Progress color={color} skill={"Wordpress"} percentage={45} />
+            <Progress color={color} skill={"WooCommerce"} percentage={35} />
+            <Progress color={color} skill={"Joomla"} percentage={30} />
           </div>
         </div>
       </div>

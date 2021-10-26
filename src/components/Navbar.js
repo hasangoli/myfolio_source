@@ -8,7 +8,7 @@ import {
   FaBars,
 } from "react-icons/fa";
 
-const Navbar = ({ setRoute }) => {
+const Navbar = ({ setRoute, color }) => {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -18,7 +18,10 @@ const Navbar = ({ setRoute }) => {
           <div class="collapse navbar-collapse" id="navbarNavDesktop">
             <ul class="navbar-nav">
               <div className="btn-group">
-                <li class="nav-item btn btn-info">
+                <li
+                  class="nav-item btn btn-info"
+                  style={{ backgroundColor: color, border: "none" }}
+                >
                   <span class="nav-link" onClick={() => setRoute("home")}>
                     <FaHome className="icon" />
                   </span>
@@ -95,6 +98,7 @@ const Navbar = ({ setRoute }) => {
             <a
               href="tel:+989107724733"
               className="btn rounded-pill btn-info text-light ps-3"
+              style={{ backgroundColor: color, border: "none" }}
             >
               <span className="pe-3">Hire Me</span>
               <FaTelegramPlane className="icon" />
@@ -106,7 +110,10 @@ const Navbar = ({ setRoute }) => {
       {/* Mobile Navbar */}
       <nav className="navbar navbar-light bg-light rounded d-block d-lg-none shadow-lg p-0">
         <div className="container-fluid p-0 m-0">
-          <li className="nav-item btn btn-info m-0">
+          <li
+            className="nav-item btn btn-info m-0"
+            style={{ backgroundColor: color, border: "none" }}
+          >
             <span className="nav-link" onClick={() => setRoute("home")}>
               <FaHome className="icon" />
             </span>

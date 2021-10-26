@@ -7,7 +7,7 @@ import ElectroMotor from "../../images/clients/lOGOyellow.png";
 import { FaSuitcase, FaGraduationCap } from "react-icons/fa";
 import HistoryBlock from "./resume/HistoryBlock";
 
-const Resume = () => {
+const Resume = ({ color }) => {
   return (
     <div className="resume">
       <div className="about-me p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg my-5">
@@ -16,7 +16,10 @@ const Resume = () => {
         <div className="row">
           <div className="col-lg-6 col-12 mb-5 mb-lg-0">
             <h5>
-              <FaSuitcase className="resume-icon bg-info text-white m-1 p-2 fs-1 rounded-pill" />{" "}
+              <FaSuitcase
+                className="resume-icon text-white m-1 p-2 fs-1 rounded-pill"
+                style={{ backgroundColor: color }}
+              />{" "}
               Working History
             </h5>
 
@@ -33,7 +36,10 @@ const Resume = () => {
 
           <div className="col-lg-6 col-12">
             <h5>
-              <FaGraduationCap className="resume-icon bg-info text-white m-1 p-2 fs-1 rounded-pill" />{" "}
+              <FaGraduationCap
+                className="resume-icon text-white m-1 p-2 fs-1 rounded-pill"
+                style={{ backgroundColor: color }}
+              />{" "}
               Academic History
             </h5>
 

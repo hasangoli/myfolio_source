@@ -7,29 +7,29 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { useState } from "react";
 
-const Main = () => {
+const Main = ({ color }) => {
   const [route, setRoute] = useState("");
 
   return (
     <div className="main">
-      <Navbar setRoute={setRoute} />
+      <Navbar setRoute={setRoute} color={color} />
       {(() => {
         switch (route) {
           case "home":
-            return <Home />;
+            return <Home color={color} />;
           case "resume":
-            return <Resume />;
+            return <Resume color={color} />;
           case "portfolio":
             return <Portfolio />;
           case "blog":
             return <Blog />;
           case "contact":
-            return <Contact />;
+            return <Contact color={color} />;
           default:
             return <Home />;
         }
       })()}
-      <Footer />
+      <Footer color={color} />
     </div>
   );
 };

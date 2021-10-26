@@ -1,7 +1,7 @@
 import Profile from "../images/photo_2021-06-05_01-02-50.jpg";
 import { FaDownload } from "react-icons/fa";
 
-const Sidebar = () => {
+const Sidebar = ({ color }) => {
   return (
     <div className="sidebar rounded shadow-lg py-lg-4 py-3 px-lg-3 px-3">
       <div className="profile">
@@ -49,7 +49,8 @@ const Sidebar = () => {
         <a
           href="../pdf/HasanGoli.pdf"
           download
-          className="btn rounded-pill btn-info text-light py-2 px-4"
+          className="btn rounded-pill text-light py-2 px-4"
+          style={{ backgroundColor: color }}
         >
           Download Cv <FaDownload className="icon ms-3" />
         </a>
