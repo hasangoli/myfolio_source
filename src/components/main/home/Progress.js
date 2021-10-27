@@ -1,4 +1,4 @@
-const Progress = ({ skill, percentage, color }) => {
+const Progress = ({ skill, percentage, color: col }) => {
   return (
     <div className="col-11 my-2">
       <h6>{skill}</h6>
@@ -8,7 +8,6 @@ const Progress = ({ skill, percentage, color }) => {
           role="progressbar"
           style={{
             width: `${percentage}%`,
-            backgroundColor: color,
           }}
         ></div>
       </div>
