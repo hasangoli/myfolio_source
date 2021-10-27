@@ -2,7 +2,7 @@ import { useState } from "react";
 import { HiColorSwatch } from "react-icons/hi";
 
 const ColorChanger = ({ setColor }) => {
-  const color01 = "#0dcaf0";
+  const color01 = "#0DCAF0";
   const color02 = "#6C4A4A";
   const color03 = "#FF5151";
   const color04 = "#125C13";

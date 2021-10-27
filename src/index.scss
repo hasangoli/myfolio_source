@@ -19,12 +19,12 @@ body {
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #fff;
+    background-color: #000;
     border-radius: 10vw;
   }
 
   &::-webkit-scrollbar-track {
-    background: #00aaaa;
+    background: #fff;
   }
 
   .mobile-nav-close {
@@ -42,7 +42,7 @@ body {
   }
 
   .app {
-    background: url("./images/bg.svg") center center/cover fixed;
+    // background: url("./images/bg.svg") center center/cover fixed;
     z-index: 5;
     width: 100vw;
     min-height: 100vh;
