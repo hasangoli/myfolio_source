@@ -46,7 +46,7 @@ const Contact = ({ color }) => {
             </div>
 
             <button
-              className="btn rounded-pill text-light px-4"
+              className="btn rounded-pill text-light py-2 px-5"
               style={{ backgroundColor: color }}
               disabled
             >
@@ -64,7 +64,8 @@ const Contact = ({ color }) => {
               <br />
               <span className="text-secondary fw-normal">
                 <a
-                  className="color-info text-decoration-none"
+                  className="text-decoration-none"
+                  style={{ color: color }}
                   href="https://www.google.com/maps/place/Safadasht+Industrial+City,+Tehran+Province,+Iran/@35.6805179,50.8254145,14z/data=!4m5!3m4!1s0x3f8d99bc6dd2faff:0x4558f27e045d228d!8m2!3d35.6806963!4d50.8196259"
                   rel="noreferrer"
                   target="_blank"
@@ -78,7 +79,8 @@ const Contact = ({ color }) => {
               <br />
               <span className="text-secondary fw-normal">
                 <a
-                  className="color-info text-decoration-none"
+                  className="text-decoration-none"
+                  style={{ color: color }}
                   href="tel:+989107724733"
                 >
                   +98 (910) 772 47 33
@@ -90,7 +92,8 @@ const Contact = ({ color }) => {
               <br />
               <span className="text-secondary fw-normal">
                 <a
-                  className="color-info text-decoration-none"
+                  className="text-decoration-none"
+                  style={{ color: color }}
                   href="https://t.me/unconsciousman"
                 >
                   Hasan Goli
@@ -102,7 +105,8 @@ const Contact = ({ color }) => {
               <br />
               <span className="text-secondary fw-normal">
                 <a
-                  className="color-info text-decoration-none"
+                  className="text-decoration-none"
+                  style={{ color: color }}
                   href="mailto:mrhasangoli@gmail.com"
                   rel="noreferrer"
                   target="_blank"

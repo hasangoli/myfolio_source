@@ -11,12 +11,6 @@ const ColorChanger = ({ setColor }) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  if (window.localStorage.getItem("color")) {
-    setColor(window.localStorage.getItem("color"));
-  } else {
-    window.localStorage.setItem("color", color01);
-  }
-
   return (
     <div
       className="position-fixed d-flex flex-row"

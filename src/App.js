@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ColorChanger from "./components/ColorChanger";
 import Main from "./components/Main";
 import Sidebar from "./components/Sidebar";
 
 const App = () => {
-  const [color, setColor] = useState("#0dcaf0");
+  const [color, setColor] = useState("");
+
+  useEffect(() => {
+    if (window.localStorage.getItem("color")) {
+      setColor(window.localStorage.getItem("color"));
+    } else {
+      window.localStorage.setItem("color", color);
+    }
+  }, [color]);
 
   return (
     <div className="app p-lg-4 p-0 pt-5">

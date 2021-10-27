@@ -27,17 +27,17 @@ const Home = ({ color }) => {
 
         <div className="row">
           <Card
-            image={<FaLaptop />}
+            image={<FaLaptop style={{ color: color }} />}
             title={"Web Development"}
             text={"I have been working on web development"}
           />
           <Card
-            image={<FaPenFancy />}
+            image={<FaPenFancy style={{ color: color }} />}
             title={"Web Design"}
             text={"I have a basic grasp of designing User Interface with Figma"}
           />
           <Card
-            image={<FaCalendar />}
+            image={<FaCalendar style={{ color: color }} />}
             title={"Time Management"}
             text={"I have time management ability to handle project"}
           />

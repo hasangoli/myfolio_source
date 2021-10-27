@@ -20,13 +20,13 @@ const Main = ({ color }) => {
           case "resume":
             return <Resume color={color} />;
           case "portfolio":
-            return <Portfolio />;
+            return <Portfolio color={color} />;
           case "blog":
             return <Blog color={color} />;
           case "contact":
             return <Contact color={color} />;
           default:
-            return <Home />;
+            return <Home color={color} />;
         }
       })()}
       <Footer color={color} />

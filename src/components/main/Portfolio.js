@@ -8,20 +8,22 @@ import TodoApp from "../../images/portfolio/TodoApp.png";
 import IMDB from "../../images/portfolio/IMDB.png";
 import MyFolio from "../../images/portfolio/MyFolio.png";
 
-const Portfolio = () => {
+const Portfolio = ({ color }) => {
   return (
     <div className="portfolio">
       <div className="my-services p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg my-5">
         <h3 className="my-4">Portfolio</h3>
 
-        <div className="row">
+        <div className="row d-flex flex-wrap">
           <Job
+            color={color}
             url={"https://github.com/hasangoli/imdb_source"}
             image={IMDB}
             title={"IMDB Movie Ranking"}
             info={"React, Bootstrap (just source)"}
           />
           <Job
+            color={color}
             url={"https://hasangoli.github.io/todo"}
             image={TodoApp}
             title={"Todo"}
@@ -29,6 +31,7 @@ const Portfolio = () => {
             link={"https://github.com/hasangoli/todo_source"}
           />
           <Job
+            color={color}
             url={"https://hasangoli.github.io/myfolio"}
             image={MyFolio}
             title={"MyFolio"}
@@ -36,30 +39,35 @@ const Portfolio = () => {
             link={"https://github.com/hasangoli/myfolio_source"}
           />
           <Job
+            color={color}
             url={"https://www.jicoexact.ir"}
             image={JicoExact}
             title={"JicoExact"}
             info={"Wordpress, WooCommerce"}
           />
           <Job
+            color={color}
             url={"https://www.mercemarket2.ir"}
             image={MerceMarket}
             title={"MerceMarket"}
             info={"Wordpress, WooCommerce"}
           />
           <Job
+            color={color}
             url={"https://www.netdes.ir"}
             image={NetDes}
             title={"NetDes"}
             info={"Wordpress, WooCommerce"}
           />
           <Job
+            color={color}
             url={"https://www.jahanklaymer.ir"}
             image={JahanKlaymer}
             title={"JahanKlaymer"}
             info={"Wordpress, WooCommerce"}
           />
           <Job
+            color={color}
             url={"https://www.borjklaymer.com"}
             image={Borjklaymer}
             title={"Borjklaymer"}

@@ -97,11 +97,11 @@ const Navbar = ({ setRoute, color }) => {
             </ul>
             <a
               href="tel:+989107724733"
-              className="btn rounded-pill btn-info text-light ps-3"
+              className="btn rounded-pill btn-info text-light px-4"
               style={{ backgroundColor: color, border: "none" }}
             >
               <span className="pe-3">Hire Me</span>
-              <FaTelegramPlane className="icon" />
+              <FaTelegramPlane className="icon m-1" />
             </a>
           </div>
         </div>
