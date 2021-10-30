@@ -48,8 +48,8 @@ const Home = ({ color }) => {
         <div className="row">
           <div className="col-12 col-lg-4 py-4 py-lg-0">
             <h5 className="mb-4">Design Skills</h5>
-            <Progress color={color} skill={"Figma"} percentage={40} />
             <Progress color={color} skill={"GIMP"} percentage={30} />
+            <Progress color={color} skill={"Figma"} percentage={40} />
             <Progress color={color} skill={"Photoshop"} percentage={25} />
             <Progress color={color} skill={"Adobe XD"} percentage={15} />
           </div>
@@ -59,8 +59,15 @@ const Home = ({ color }) => {
             <Progress color={color} skill={"Javascript"} percentage={45} />
             <Progress color={color} skill={"CSS3"} percentage={70} />
             <Progress color={color} skill={"HTML5"} percentage={75} />
-            <Progress color={color} skill={"Bootstrap"} percentage={45} />
+            <Progress color={color} skill={"Bootstrap5"} percentage={45} />
             <Progress color={color} skill={"React & Redux"} percentage={30} />
+            <Progress color={color} skill={"Sass"} percentage={40} />
+            <Progress color={color} skill={"axios"} percentage={40} />
+            <Progress
+              color={color}
+              skill={"Styled-Components"}
+              percentage={20}
+            />
           </div>
 
           <div className="col-12 col-lg-4 py-4 py-lg-0">
@@ -68,6 +75,11 @@ const Home = ({ color }) => {
             <Progress color={color} skill={"Wordpress"} percentage={45} />
             <Progress color={color} skill={"WooCommerce"} percentage={35} />
             <Progress color={color} skill={"Joomla"} percentage={30} />
+            <Progress color={color} skill={"Linux"} percentage={45} />
+            <Progress color={color} skill={"Windows"} percentage={60} />
+            <Progress color={color} skill={"cPanel"} percentage={35} />
+            <Progress color={color} skill={"Git & Github"} percentage={30} />
+            <Progress color={color} skill={"npm"} percentage={30} />
           </div>
         </div>
       </div>
