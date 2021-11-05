@@ -7,6 +7,7 @@ import Borjklaymer from "../../images/portfolio/Borjklaymer.png";
 import TodoApp from "../../images/portfolio/TodoApp.png";
 import IMDB from "../../images/portfolio/IMDB.png";
 import MyFolio from "../../images/portfolio/MyFolio.png";
+import Clipboard from "../../images/portfolio/Clipboard.png";
 
 const Portfolio = ({ color }) => {
   return (
@@ -15,6 +16,14 @@ const Portfolio = ({ color }) => {
         <h3 className="my-4">Portfolio</h3>
 
         <div className="row d-flex flex-wrap">
+          <Job
+            color={color}
+            url={"https://hasangoli.github.io/clipboard/"}
+            image={Clipboard}
+            title={"Clipboard"}
+            info={"React, Styled-components"}
+            link={"https://github.com/hasangoli/clipboard_source"}
+          />
           <Job
             color={color}
             url={"https://github.com/hasangoli/imdb_source"}

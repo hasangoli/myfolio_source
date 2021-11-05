@@ -7,13 +7,13 @@ const Job = ({ url, image, title, info, link = "", color }) => {
           <h5 className="card-title" style={{ color: color }}>
             {title}
           </h5>
-          <p className="card-text text-secondary d-flex justify-content-between">
+          <p className="card-text text-secondary d-flex align-items-center justify-content-between">
             <span>{info}</span>
             {link && (
               <span>
                 <a
-                  style={{ color: color }}
-                  className="link"
+                  style={{ backgroundColor: color }}
+                  className="btn text-white fw-bold rounded-pill"
                   href={link}
                   target="_blank"
                   rel="noreferrer"
