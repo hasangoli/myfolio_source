@@ -47,7 +47,7 @@ const Sidebar = ({ color }) => {
 
       <div className="text-center">
         <a
-          href="../pdf/HasanGoli.pdf"
+          href="./pdf/HasanGoli.pdf"
           download
           className="btn rounded-pill text-light py-3 px-4"
           style={{ backgroundColor: color }}
