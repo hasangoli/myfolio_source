@@ -8,6 +8,7 @@ import TodoApp from "../../images/portfolio/TodoApp.png";
 import IMDB from "../../images/portfolio/IMDB.png";
 import MyFolio from "../../images/portfolio/MyFolio.png";
 import Clipboard from "../../images/portfolio/Clipboard.png";
+import Sneakers from "../../images/portfolio/Sneakers.png";
 
 const Portfolio = ({ color }) => {
   return (
@@ -16,6 +17,14 @@ const Portfolio = ({ color }) => {
         <h3 className="my-4">Portfolio</h3>
 
         <div className="row d-flex flex-wrap">
+          <Job
+            color={color}
+            url={"https://hasangoli.github.io/sneakers/"}
+            image={Sneakers}
+            title={"Sneakers"}
+            info={"React, React-bootstrap, Sass, Context API"}
+            link={"https://github.com/hasangoli/sneakers_source"}
+          />
           <Job
             color={color}
             url={"https://hasangoli.github.io/clipboard/"}
