@@ -4,7 +4,7 @@ import Main from "./components/Main";
 import Sidebar from "./components/Sidebar";
 
 const App = () => {
-  const [color, setColor] = useState("");
+  const [color, setColor] = useState("#0dcaf0");
 
   useEffect(() => {
     if (window.localStorage.getItem("color")) {
