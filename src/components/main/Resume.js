@@ -28,7 +28,7 @@ const Resume = ({ color }) => {
 
             <div className="row">
               <HistoryBlock
-                title={"Front-end Dev. - Zobdegan"}
+                title={"Junior Front-end Dev. - Zobdegan"}
                 date={"2021 - 2022"}
                 info={
                   "In less than six month that I worked in this company, I worked on some projects which used most useful technologies such as NextJS and Laravel Blade in front-end section and React-Native in mobile app development. I experienced working in an agile team and match myself to be a part of it. Thus I experienced using Git control version to manage the projects perfectly."

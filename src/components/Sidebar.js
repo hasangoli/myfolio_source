@@ -7,7 +7,7 @@ const Sidebar = ({ color }) => {
       <div className="profile">
         <p className="profile-name text-uppercase h3">Hasan Goli</p>
         <p className="profile-job text-uppercase text-secondary">
-          Front-End Developer
+          Junior Front-End Developer
         </p>
         <img className="profile-image img-fluid" src={Profile} alt="Profile" />
         <ul className="profile-information p-3 m-2">
@@ -25,7 +25,7 @@ const Sidebar = ({ color }) => {
             Job:
             <br />
             <span className="text-secondary fw-normal">
-              Front-End Developer
+              Junior Front-End Developer
             </span>
           </li>
           <li className="fw-bold my-3">

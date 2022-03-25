@@ -32,7 +32,7 @@ const Portfolio = ({ color }) => {
             url={"https://parschap-aria.ir/"}
             image={Parschap}
             title={"Parschap Aria"}
-            info={"Next JS, Ant Design, TailwindCSS, AOS, SASS"}
+            info={"PWA, Next JS, Ant Design, TailwindCSS, AOS, SASS"}
           />
           <Job
             color={color}

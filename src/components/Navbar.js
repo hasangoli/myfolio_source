@@ -125,7 +125,7 @@ const Navbar = ({ setRoute, color }) => {
                   className="nav-link"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://wa.me/989107724733"
+                  href="https://wa.me/+989107724733"
                 >
                   <FaWhatsapp className="p-1 fs-1 text-dark" />
                 </a>
@@ -145,7 +145,7 @@ const Navbar = ({ setRoute, color }) => {
                   className="nav-link"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://t.me/unconsciousman"
+                  href="https://t.me/disrespectist"
                 >
                   <FaTelegram className="p-1 fs-1 text-dark" />
                 </a>
