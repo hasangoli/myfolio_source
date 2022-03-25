@@ -47,12 +47,12 @@ const Sidebar = ({ color }) => {
 
       <div className="text-center">
         <a
-          href="./pdf/HasanGoli.pdf"
+          href="./assets/pdf/HasanGoli.pdf"
           download
           className="btn rounded-pill text-light py-3 px-4"
           style={{ backgroundColor: color }}
         >
-          Download Cv <FaDownload className="icon ms-3" />
+          Download CV <FaDownload className="icon ms-3" />
         </a>
       </div>
     </div>

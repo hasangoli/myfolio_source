@@ -42,14 +42,14 @@ const Navbar = ({ setRoute, color }) => {
                     Portfolio
                   </span>
                 </li>
-                <li className="nav-item btn">
+                {/* <li className="nav-item btn">
                   <span
                     className="nav-link text-uppercase fw-bold"
                     onClick={() => setRoute("blog")}
                   >
                     Blog
                   </span>
-                </li>
+                </li> */}
                 <li className="nav-item btn">
                   <span
                     className="nav-link text-uppercase fw-bold"
@@ -69,7 +69,7 @@ const Navbar = ({ setRoute, color }) => {
                   className="nav-link"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://whatsapp.com"
+                  href="https://wa.me/+989107724733"
                 >
                   <FaWhatsapp />
                 </a>
@@ -89,7 +89,7 @@ const Navbar = ({ setRoute, color }) => {
                   className="nav-link"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://telegram.com"
+                  href="https://t.me/disrespectist"
                 >
                   <FaTelegram />
                 </a>
