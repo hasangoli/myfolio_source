@@ -1,9 +1,9 @@
 import Job from "./portfolio/Job";
-import JicoExact from "../../images/portfolio/JicoExact.png";
-import MerceMarket from "../../images/portfolio/MerceMarket.png";
-import NetDes from "../../images/portfolio/NetDes.png";
-import JahanKlaymer from "../../images/portfolio/JahanKlaymer.png";
-import Borjklaymer from "../../images/portfolio/Borjklaymer.png";
+// import JicoExact from "../../images/portfolio/JicoExact.png";
+// import MerceMarket from "../../images/portfolio/MerceMarket.png";
+// import NetDes from "../../images/portfolio/NetDes.png";
+// import JahanKlaymer from "../../images/portfolio/JahanKlaymer.png";
+// import Borjklaymer from "../../images/portfolio/Borjklaymer.png";
 import Parschap from "../../images/portfolio/Parschap.png";
 import Dadfaraneh from "../../images/portfolio/Dadfaraneh.png";
 import TodoApp from "../../images/portfolio/TodoApp.png";

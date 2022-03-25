@@ -6,6 +6,7 @@ import MerceMarket from "../../images/clients/Logo_1900x1900.png";
 import ElectroMotor from "../../images/clients/lOGOyellow.png";
 import Dadfaraneh from "../../images/clients/dadfaraneh-logo.png";
 import Parschap from "../../images/clients/parschap-logo.png";
+import CinemaFan from "../../images/clients/cinemafan-logo.png";
 import { FaSuitcase, FaGraduationCap } from "react-icons/fa";
 import HistoryBlock from "./resume/HistoryBlock";
 
@@ -69,6 +70,7 @@ const Resume = ({ color }) => {
         <h3 className="my-4">Clients</h3>
 
         <div className="row">
+          <Client src={CinemaFan} />
           <Client src={Dadfaraneh} />
           <Client src={Parschap} />
           <Client src={JicoExact} />
