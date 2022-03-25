@@ -4,6 +4,8 @@ import MerceMarket from "../../images/portfolio/MerceMarket.png";
 import NetDes from "../../images/portfolio/NetDes.png";
 import JahanKlaymer from "../../images/portfolio/JahanKlaymer.png";
 import Borjklaymer from "../../images/portfolio/Borjklaymer.png";
+import Parschap from "../../images/portfolio/Parschap.png";
+import Dadfaraneh from "../../images/portfolio/Dadfaraneh.png";
 import TodoApp from "../../images/portfolio/TodoApp.png";
 import IMDB from "../../images/portfolio/IMDB.png";
 import MyFolio from "../../images/portfolio/MyFolio.png";
@@ -18,6 +20,20 @@ const Portfolio = ({ color }) => {
         <h3 className="my-4">Portfolio</h3>
 
         <div className="row d-flex flex-wrap">
+          <Job
+            color={color}
+            url={"https://dadfaraneh.com/"}
+            image={Dadfaraneh}
+            title={"Dadfaraneh"}
+            info={"Laravel, Bootstrap, Sass"}
+          />
+          <Job
+            color={color}
+            url={"https://parschap-aria.ir/"}
+            image={Parschap}
+            title={"Parschap Aria"}
+            info={"Next JS, Ant Design, TailwindCSS, AOS, SASS"}
+          />
           <Job
             color={color}
             url={"https://hasangoli.github.io/room/"}
@@ -65,7 +81,7 @@ const Portfolio = ({ color }) => {
             info={"React, Sass, Bootstrap"}
             link={"https://github.com/hasangoli/myfolio_source"}
           />
-          <Job
+          {/* <Job
             color={color}
             url={"https://www.jicoexact.ir"}
             image={JicoExact}
@@ -99,7 +115,7 @@ const Portfolio = ({ color }) => {
             image={Borjklaymer}
             title={"Borjklaymer"}
             info={"Joomla"}
-          />
+          /> */}
         </div>
       </div>
     </div>

@@ -180,14 +180,14 @@ const Navbar = ({ setRoute, color }) => {
               Portfolio
             </span>
           </li>
-          <li className="nav-item btn" onClick={() => setIsOpen(!isOpen)}>
+          {/* <li className="nav-item btn" onClick={() => setIsOpen(!isOpen)}>
             <span
               className="nav-link text-uppercase fw-bold"
               onClick={() => setRoute("blog")}
             >
               Blog
             </span>
-          </li>
+          </li> */}
           <li className="nav-item btn" onClick={() => setIsOpen(!isOpen)}>
             <span
               className="nav-link text-uppercase fw-bold"
