@@ -6,12 +6,12 @@ import Job from "./portfolio/Job";
 // import Borjklaymer from "../../images/portfolio/Borjklaymer.png";
 import Parschap from "../../images/portfolio/Parschap.png";
 import Dadfaraneh from "../../images/portfolio/Dadfaraneh.png";
-import TodoApp from "../../images/portfolio/TodoApp.png";
-import IMDB from "../../images/portfolio/IMDB.png";
+// import TodoApp from "../../images/portfolio/TodoApp.png";
+// import IMDB from "../../images/portfolio/IMDB.png";
 import MyFolio from "../../images/portfolio/MyFolio.png";
-import Clipboard from "../../images/portfolio/Clipboard.png";
-import Sneakers from "../../images/portfolio/Sneakers.png";
-import room from "../../images/portfolio/room.png";
+// import Clipboard from "../../images/portfolio/Clipboard.png";
+// import Sneakers from "../../images/portfolio/Sneakers.png";
+// import room from "../../images/portfolio/room.png";
 
 const Portfolio = ({ color }) => {
   return (
