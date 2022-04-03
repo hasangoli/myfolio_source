@@ -34,7 +34,7 @@ const Portfolio = ({ color }) => {
             title={"Parschap Aria"}
             info={"PWA, Next JS, Ant Design, TailwindCSS, AOS, SASS"}
           />
-          <Job
+          {/* <Job
             color={color}
             url={"https://hasangoli.github.io/room/"}
             image={room}
@@ -72,7 +72,7 @@ const Portfolio = ({ color }) => {
             title={"Todo"}
             info={"React"}
             link={"https://github.com/hasangoli/todo_source"}
-          />
+          /> */}
           <Job
             color={color}
             url={"https://hasangoli.github.io/myfolio"}
