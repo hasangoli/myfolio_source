@@ -6,8 +6,8 @@ import Job from "./portfolio/Job";
 // import Borjklaymer from "../../images/portfolio/Borjklaymer.png";
 import Parschap from "../../images/portfolio/Parschap.png";
 import Dadfaraneh from "../../images/portfolio/Dadfaraneh.png";
-// import TodoApp from "../../images/portfolio/TodoApp.png";
-// import IMDB from "../../images/portfolio/IMDB.png";
+import TodoApp from "../../images/portfolio/TodoApp.png";
+import IMDB from "../../images/portfolio/IMDB.png";
 import MyFolio from "../../images/portfolio/MyFolio.png";
 // import Clipboard from "../../images/portfolio/Clipboard.png";
 // import Sneakers from "../../images/portfolio/Sneakers.png";
@@ -41,23 +41,23 @@ const Portfolio = ({ color }) => {
             title={"room"}
             info={"React, React-bootstrap, Sass"}
             link={"https://github.com/hasangoli/room_source"}
-          />
-          <Job
+          /> */}
+          {/* <Job
             color={color}
             url={"https://hasangoli.github.io/sneakers/"}
             image={Sneakers}
             title={"Sneakers"}
             info={"React, React-bootstrap, Sass, Context API"}
             link={"https://github.com/hasangoli/sneakers_source"}
-          />
-          <Job
+          /> */}
+          {/* <Job
             color={color}
             url={"https://hasangoli.github.io/clipboard/"}
             image={Clipboard}
             title={"Clipboard"}
             info={"React, Styled-components"}
             link={"https://github.com/hasangoli/clipboard_source"}
-          />
+          /> */}
           <Job
             color={color}
             url={"https://github.com/hasangoli/imdb_source"}
@@ -72,7 +72,7 @@ const Portfolio = ({ color }) => {
             title={"Todo"}
             info={"React"}
             link={"https://github.com/hasangoli/todo_source"}
-          /> */}
+          />
           <Job
             color={color}
             url={"https://hasangoli.github.io/myfolio"}
