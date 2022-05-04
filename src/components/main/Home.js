@@ -1,12 +1,12 @@
-import { FaLaptop, FaPenFancy, FaCalendar } from "react-icons/fa";
-import Card from "./home/Card";
-import Progress from "./home/Progress";
+import { FaLaptop, FaPenFancy, FaCalendar } from 'react-icons/fa';
+import Card from './home/Card';
+import Progress from './home/Progress';
 
 const Home = ({ color }) => {
   return (
-    <div className="home py-4">
-      <div className="about-me p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg mb-5">
-        <h3 className="my-4">About Me</h3>
+    <div className='home py-4'>
+      <div className='about-me p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg mb-5'>
+        <h3 className='my-4'>About Me</h3>
 
         <p>
           I became acquainted with web programming through YouTube and became
@@ -22,68 +22,72 @@ const Home = ({ color }) => {
         </p>
       </div>
 
-      <div className="my-services p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg my-5">
-        <h3 className="my-4">My Capability</h3>
+      <div className='my-services p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg my-5'>
+        <h3 className='my-4'>My Capability</h3>
 
-        <div className="row">
+        <div className='row'>
           <Card
             image={<FaLaptop style={{ color: color }} />}
-            title={"Web Development"}
-            text={"I have been working on web development"}
+            title={'Web Development'}
+            text={'I have been working on web development'}
           />
           <Card
             image={<FaPenFancy style={{ color: color }} />}
-            title={"Web Design"}
-            text={"I have a basic grasp of designing User Interface with Figma"}
+            title={'Web Design'}
+            text={'I have a basic grasp of designing User Interface with Figma'}
           />
           <Card
             image={<FaCalendar style={{ color: color }} />}
-            title={"Time Management"}
-            text={"I have time management ability to handle project"}
+            title={'Time Management'}
+            text={'I have time management ability to handle project'}
           />
         </div>
       </div>
 
-      <div className="skills p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg mt-5">
-        <div className="row">
-          <div className="col-12 col-lg-4 py-4 py-lg-0">
-            <h5 className="mb-4">Design Skills</h5>
-            <Progress color={color} skill={"GIMP"} percentage={30} />
-            <Progress color={color} skill={"Figma"} percentage={40} />
-            <Progress color={color} skill={"Photoshop"} percentage={25} />
-            <Progress color={color} skill={"Adobe XD"} percentage={25} />
+      <div className='skills p-lg-5 p-3 pt-lg-4 pt-2 bg-white rounded shadow-lg mt-5'>
+        <div className='row'>
+          <div className='col-12 col-lg-4 py-4 py-lg-0'>
+            <h5 className='mb-4'>Design Skills</h5>
+            <Progress color={color} skill={'GIMP'} percentage={30} />
+            <Progress color={color} skill={'Figma'} percentage={40} />
+            <Progress color={color} skill={'Photoshop'} percentage={25} />
+            <Progress color={color} skill={'Adobe XD'} percentage={25} />
           </div>
 
-          <div className="col-12 col-lg-4 py-4 py-lg-0">
-            <h5 className="mb-4">Code Skills</h5>
-            <Progress color={color} skill={"NextJS"} percentage={35} />
-            <Progress color={color} skill={"React"} percentage={40} />
-            <Progress color={color} skill={"React-Native"} percentage={30} />
-            <Progress color={color} skill={"Javascript"} percentage={45} />
-            <Progress color={color} skill={"CSS3"} percentage={70} />
-            <Progress color={color} skill={"HTML5"} percentage={75} />
-            <Progress color={color} skill={"TailwindCSS"} percentage={45} />
-            <Progress color={color} skill={"AntDesign"} percentage={35} />
-            <Progress color={color} skill={"Bootstrap"} percentage={45} />
-            <Progress color={color} skill={"Sass"} percentage={40} />
-            <Progress color={color} skill={"axios"} percentage={30} />
+          <div className='col-12 col-lg-4 py-4 py-lg-0'>
+            <h5 className='mb-4'>Code Skills</h5>
+            <Progress color={color} skill={'NextJS'} percentage={35} />
+            <Progress color={color} skill={'React'} percentage={40} />
+            <Progress color={color} skill={'React-Native'} percentage={30} />
+            <Progress color={color} skill={'TailwindCSS'} percentage={45} />
+            <Progress color={color} skill={'AntDesign'} percentage={35} />
+            <Progress color={color} skill={'Bootstrap'} percentage={45} />
+            <Progress color={color} skill={'Sass'} percentage={40} />
+            <Progress color={color} skill={'Javascript'} percentage={45} />
+            <Progress color={color} skill={'CSS3'} percentage={70} />
+            <Progress color={color} skill={'HTML5'} percentage={75} />
+            <Progress color={color} skill={'jQuery'} percentage={20} />
+            <Progress color={color} skill={'NodeJS'} percentage={15} />
+            <Progress color={color} skill={'Express'} percentage={15} />
+            <Progress color={color} skill={'MongoDB'} percentage={15} />
+            <Progress color={color} skill={'axios'} percentage={30} />
             <Progress
               color={color}
-              skill={"Styled-Components"}
+              skill={'Styled-Components'}
               percentage={15}
             />
           </div>
 
-          <div className="col-12 col-lg-4 py-4 py-lg-0">
-            <h5 className="mb-4">Other Skills</h5>
-            <Progress color={color} skill={"Wordpress"} percentage={30} />
-            <Progress color={color} skill={"WooCommerce"} percentage={25} />
-            <Progress color={color} skill={"Joomla"} percentage={20} />
-            <Progress color={color} skill={"Linux"} percentage={45} />
-            <Progress color={color} skill={"Windows"} percentage={60} />
-            <Progress color={color} skill={"cPanel"} percentage={20} />
-            <Progress color={color} skill={"Git & Github"} percentage={50} />
-            <Progress color={color} skill={"npm"} percentage={30} />
+          <div className='col-12 col-lg-4 py-4 py-lg-0'>
+            <h5 className='mb-4'>Other Skills</h5>
+            <Progress color={color} skill={'Wordpress'} percentage={30} />
+            <Progress color={color} skill={'WooCommerce'} percentage={25} />
+            <Progress color={color} skill={'Joomla'} percentage={20} />
+            <Progress color={color} skill={'Linux'} percentage={45} />
+            <Progress color={color} skill={'Windows'} percentage={60} />
+            <Progress color={color} skill={'cPanel'} percentage={20} />
+            <Progress color={color} skill={'Git & Github'} percentage={50} />
+            <Progress color={color} skill={'npm'} percentage={30} />
           </div>
         </div>
       </div>
